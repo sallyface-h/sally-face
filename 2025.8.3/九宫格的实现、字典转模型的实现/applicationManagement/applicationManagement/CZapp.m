@@ -10,7 +10,7 @@
 @implementation CZapp
 -(instancetype)initWithDict:(NSDictionary *)dict{
     if (self=[super init]){
-        self.name=dict[@"name"];
+        self.name=dict[@"title"];
         self.icon=dict[@"icon"];
     }
     return  self;
